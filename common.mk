@@ -38,6 +38,9 @@ PRODUCT_PACKAGES += \
     libaudio-resampler \
     libtinycompress
 
+TARGET_EXCLUDES_AUDIOFX := true 
+
+
 PRODUCT_PACKAGES += \
     android.hardware.audio@6.0-impl:32 \
     android.hardware.audio.effect@6.0-impl:32 \
@@ -108,8 +111,7 @@ TARGET_SCREEN_WIDTH := 1080
 
 # Camera
 PRODUCT_PACKAGES += \
-    libgui_vendor \
-    GoogleCameraGo
+    libgui_vendor 
 
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
@@ -120,6 +122,8 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.camera.front.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.front.xml \
     frameworks/native/data/etc/android.hardware.camera.full.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.full.xml \
     frameworks/native/data/etc/android.hardware.camera.raw.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.raw.xml
+
+$(call inherit-product, vendor/xiaomi/miuicamera/config.mk)
 
 # Display
 PRODUCT_PACKAGES += \
