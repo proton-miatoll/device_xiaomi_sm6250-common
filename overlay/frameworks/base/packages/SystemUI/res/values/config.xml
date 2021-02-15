@@ -31,6 +31,6 @@
     <!-- The CPU temperature divider, if needed -->
     <integer name="config_cpuTempDivider" translatable="false">1000</integer>
     <!-- FPSInfoService Fps file path -->
-    <string name="config_fpsInfoSysNode" translatable="false">/sys/kernel/debug/dri/0/crtc97/fps</string>
+    <string name="config_fpsInfoSysNode" translatable="false">/sys/class/drm/sde-crtc-0</string>
 
 </resources>
