@@ -10,5 +10,5 @@
     "target_path":"vendor/qcom-opensource/healthd-ext",
     "branch":"lineage-18.1",
     "remote":"github"
-  },
+  }
 ]
