@@ -101,6 +101,10 @@ ro.audioprofile.more=yes
 persist.sys.media.use-awesome=1
 ro.audio.samplerate=48000
 ro.audio.pcm.samplerate=48000
+persist.vendor.bt.a2dp.mac_whitelist=false
+persist.vendor.btstack.enable.twsplussho=true
+persist.vendor.btsatck.absvolfeature=true
+persist.vendor.qcom.bluetooth.aac_vbr_ctl.enabled=false
 
 # CNE
 persist.vendor.cne.feature=1
