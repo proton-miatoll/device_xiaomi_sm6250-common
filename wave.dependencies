@@ -10,5 +10,29 @@
     "target_path":"vendor/qcom-opensource/healthd-ext",
     "branch":"lineage-18.1",
     "remote":"github"
+  },
+  {
+    "repository":"ShapeshiftOS/android_system_bt",
+    "target_path":"system/bt",
+    "branch":"android_11",
+    "remote":"github"
+  },
+  {
+    "repository":"ShapeshiftOS/android_vendor_qcom_opensource_system_bt",
+    "target_path":"vendor/qcom/opensource/commonsys/system/bt",
+    "branch":"android_11",
+    "remote":"github"
+  },
+  {
+    "repository":"ShapeshiftOS/android_vendor_qcom_opensource_packages_apps_Bluetooth",
+    "target_path":"vendor/qcom/opensource/commonsys/packages/apps/Bluetooth",
+    "branch":"android_11",
+    "remote":"github"
+  },
+  {
+    "repository":"ShapeshiftOS/android_packages_apps_Bluetooth",
+    "target_path":"packages/apps/Bluetooth",
+    "branch":"android_11",
+    "remote":"github"
   }
 ]
