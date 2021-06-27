@@ -346,7 +346,8 @@ PRODUCT_PACKAGES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
-    kernel/xiaomi/sm6250
+    kernel/xiaomi/sm6250 \
+    hardware/qcom/sm8150
 
 # Telephony
 PRODUCT_PACKAGES += \
