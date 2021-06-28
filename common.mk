@@ -347,7 +347,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     kernel/xiaomi/sm6250 \
-    hardware/qcom/sm8150
+    hardware/qcom/sm8150 \
+    vendor/qcom/opensource/commonsys-intf/display
 
 # Telephony
 PRODUCT_PACKAGES += \
